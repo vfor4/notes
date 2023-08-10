@@ -1,4 +1,4 @@
-![[Pasted image 20230724201934.png]]
+![[zimage 20230724201934.png]]
 
 * if circuit detects too many fail, it will open its circuit
 * when the circuit is open, it will perform fail-fast logic. That means it doesn't wait for new fail and will call directly **fallback logic** (return from cache or return immediately error response)

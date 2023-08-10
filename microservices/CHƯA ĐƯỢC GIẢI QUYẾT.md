@@ -1,0 +1,2 @@
+Khi dùng Consumer để đón event, bên trong processor này thì đang gọi đến hàm của persistence layer, và đang dùng block để processor đợi cho đến khi các hàm này được hoàn thành.
+Làm vậy là bad practice, nên cần tìm cách giải quyết

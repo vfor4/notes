@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6f34ed746753811d",
+        "id": "31b09aaf67f5d0fa",
         "type": "tabs",
         "children": [
           {
-            "id": "1e16b58a21a88b8b",
+            "id": "1ef74f2dddbc2fa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RESILIENT4J.md",
+                "file": "app.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RESILIENT4J.md",
+                "file": "app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RESILIENT4J.md",
+                "file": "app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RESILIENT4J.md"
+                "file": "app.md"
               }
             }
           }
@@ -147,15 +147,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f12045d21f4bad16",
+  "active": "1ef74f2dddbc2fa6",
   "lastOpenFiles": [
-    "Untitled",
-    "DOCKER.md",
-    "RESILIENT4J.md",
+    "Docker.md",
+    "CHƯA ĐƯỢC GIẢI QUYẾT.md",
     "app.md",
-    "OAuth2.md",
-    "Pasted image 20230724201934.png",
-    "Pasted image 20230724200654.png",
-    "Untitled.canvas"
+    "Oauth2.md",
+    "Rabbit MQ.md",
+    "Reactive.md",
+    "Resilient4j.md",
+    "Testing.md",
+    "Untitled",
+    "zimage 20230807192753.png",
+    "zimage 20230802213610.png",
+    "zimage 20230724201934.png",
+    "Untitled.canvas",
+    "Pasted image 20230724200654.png"
   ]
 }
