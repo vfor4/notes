@@ -27,8 +27,9 @@ Là một message broker bao gồm:
 	- Khi cần dữ liệu liên quan đến nhau phải được xử lý cùng nhau và theo thứ tự được gửi đi
 	- Chỉ định key cho mỗi message, những message nào có cùng key thì sẽ nằm cùng 1 partition![[zimage 20230807192753.png|{width=50%}]]
 	- Cần phải config ở cả publisher và consumer
-# THỰC HIỆN
+## THỰC HIỆN comsumer site
 Để có thể consume event, thực hiện các bước sau:
 * Khai báo message processor để nhận event, sau khi nhận được event rồi thì sẽ tiến hành gọi đến các hàm delete, create ở persistence layer
 * Các service được gọi phải đang dùng reactive
 * Config properties cho các consumer
+## publisher site

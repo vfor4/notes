@@ -11,3 +11,6 @@ Mặc định spring boot rollback lại updates lên database. Để disabled c
 	1. inject Qualifier("messageProcessor")
 	2. truyền event vào method accept của Consumer
 	* WebTestClient.BodyContentSpec để kết hợp dùng jsonPath 
+## Publisher
+* Testing event-drivent microserivices thì khó nhằn, Spring Cloud Stream có hỗ trợ test binder vì vậy không cần bất kì message system nào khi testing cả:
+	* 
