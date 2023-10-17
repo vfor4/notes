@@ -1,0 +1,3 @@
+- Act like a reverse proxy
+- Ẩn đi mấy cái internal service, Expose ra thì phải dùng best practices như là OAuth2, OIDC, JWT tokens và API key ...
+- 
