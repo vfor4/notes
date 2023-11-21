@@ -7,3 +7,5 @@
 	 Server-side routing: Tất cả request thông qua reverse proxy để route
 Eureka => Kubernetes => 
 
+Why DNS-based is not sufficient?
+

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e8f192d1d81cff3c",
+        "id": "ec5f2ce91ae4b693",
         "type": "tabs",
         "children": [
           {
-            "id": "eabb333ba53d80eb",
+            "id": "54bc7a0dfa1f5a3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
+                "file": "unknown/Things i don't know.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
+                "file": "unknown/Things i don't know.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
+                "file": "unknown/Things i don't know.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microservices/CHALLENGES/REACTIVE MICROSERVICES.md"
+                "file": "unknown/Things i don't know.md"
               }
             }
           },
@@ -156,29 +156,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eabb333ba53d80eb",
+  "active": "54bc7a0dfa1f5a3c",
   "lastOpenFiles": [
-    "microservices/CHALLENGES/CHALLENGES.md",
-    "microservices/CHALLENGES/EDGE SERVER.md",
-    "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
-    "microservices/MUC LUC.md",
-    "microservices/CHALLENGES/SERVICE DISCOVERY.md",
-    "microservices/TESTING.md",
-    "microservices/RABBIT MQ.md",
-    "microservices/CHALLENGES",
     "microservices/CHƯA ĐƯỢC GIẢI QUYẾT.md",
-    "microservices/RESILIENT4J.md",
+    "microservices/CHALLENGES/SERVICE DISCOVERY.md",
+    "microservices/CHALLENGES/CHALLENGES.md",
+    "microservices/CHALLENGES/CENTRALIZED MONITORING AND ALARMS.md",
+    "microservices/CHALLENGES/CIRCUIT BREAKER.md",
+    "microservices/CHALLENGES/CENTRALIZED LOG ANALYSIS.md",
+    "microservices/CHALLENGES/CENTRAL CONFIGURATION.md",
+    "angular/OVERVIEW.md",
+    "angular/FRONT_END.md",
+    "angular/FORM.md",
+    "angular/Binding.md",
+    "microservices/FOOLISH BUG.md",
+    "microservices/RABBIT MQ.md",
+    "microservices/OAUTH2.md",
     "microservices/REACTIVE.md",
     "microservices/DOCKER.md",
+    "microservices/MUC LUC.md",
+    "unknown/Things i don't know.md",
+    "java/Untitled.md",
+    "java/MODULE.md",
+    "java",
+    "microservices/SPRINGBOOT 3.0.md",
+    "angular/SCSS.md",
+    "microservices/CHALLENGES/CONTROL LOOP.md",
+    "microservices/CHALLENGES/DISTRIBUTED TRACING.md",
+    "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
+    "microservices/CHALLENGES/EDGE SERVER.md",
+    "microservices/CHALLENGES",
     "microservices/pictures/zimage 20230724201934.png",
     "microservices/pictures",
-    "microservices/OAUTH2.md",
-    "unknown/Things i don't know.md",
     "unknown",
-    "angular/FORM.md",
-    "angular/OVERVIEW.md",
-    "angular/SCSS.md",
-    "angular/Binding.md",
     "Pasted image 20231010223719.png",
     "Pasted image 20230910231450.png",
     "Pasted image 20230910231133.png",

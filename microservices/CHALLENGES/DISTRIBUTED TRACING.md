@@ -1,0 +1,1 @@
+Làm cách nào đó để trace được request, error từ center log => giải pháp là đánh id

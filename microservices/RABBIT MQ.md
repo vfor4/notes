@@ -9,7 +9,7 @@ Là một message broker bao gồm:
 	 > input như sau: functionName -in- index
 	 >    output như sau: functionName -out- index 
 	
-	\-Ví dụ: Map input của function uppercase với queue có tên là myQueue
+	\-Ví dụ: Map input của function uppercase với queue có tên là myQueue (Message sent to a uppercase function)
 	```java
 	spring.cloud.stream.bindings.uppercase-in-0.destination=myQueue
 	```
@@ -22,7 +22,7 @@ Là một message broker bao gồm:
 	Giải quyết vấn đề này bằng cách cấu hình comsumer group
 2. Retries và dead-letter queues
 	- Khi consumer xử lý message bị lỗi thì retry lại
-	- Sau khi retry mà khi xử dụng message vẫn gây ra lỗi thì gửi nó đến DLQ, từ queue này mình có thể re-process hoặc auditing hoặc hòa giải :))
+	- Sau khi retry mà khi xử dụng message vẫn gây ra lỗi thì gửi nó đến DLQ, từ queue này mình có thể re-process hoặc auditing hoặc hòa giải.
 3. Order and parittions
 	- Khi cần dữ liệu liên quan đến nhau phải được xử lý cùng nhau và theo thứ tự được gửi đi
 	- Chỉ định key cho mỗi message, những message nào có cùng key thì sẽ nằm cùng 1 partition![[zimage 20230807192753.png|{width=50%}]]
