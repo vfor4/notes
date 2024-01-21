@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unknown/Things i don't know.md",
+                "file": "microservices/K8S.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unknown/Things i don't know.md",
+                "file": "microservices/K8S.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unknown/Things i don't know.md",
+                "file": "microservices/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unknown/Things i don't know.md"
+                "file": "microservices/K8S.md"
               }
             }
           },
@@ -135,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -144,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,33 +161,35 @@
   },
   "active": "54bc7a0dfa1f5a3c",
   "lastOpenFiles": [
-    "microservices/CHƯA ĐƯỢC GIẢI QUYẾT.md",
+    "Pasted image 20240121214612.png",
+    "Pasted image 20240121175321.png",
+    "Pasted image 20240121175212.png",
     "microservices/CHALLENGES/SERVICE DISCOVERY.md",
-    "microservices/CHALLENGES/CHALLENGES.md",
-    "microservices/CHALLENGES/CENTRALIZED MONITORING AND ALARMS.md",
-    "microservices/CHALLENGES/CIRCUIT BREAKER.md",
-    "microservices/CHALLENGES/CENTRALIZED LOG ANALYSIS.md",
-    "microservices/CHALLENGES/CENTRAL CONFIGURATION.md",
-    "angular/OVERVIEW.md",
-    "angular/FRONT_END.md",
-    "angular/FORM.md",
-    "angular/Binding.md",
-    "microservices/FOOLISH BUG.md",
-    "microservices/RABBIT MQ.md",
-    "microservices/OAUTH2.md",
-    "microservices/REACTIVE.md",
-    "microservices/DOCKER.md",
-    "microservices/MUC LUC.md",
-    "unknown/Things i don't know.md",
-    "java/Untitled.md",
-    "java/MODULE.md",
-    "java",
-    "microservices/SPRINGBOOT 3.0.md",
-    "angular/SCSS.md",
-    "microservices/CHALLENGES/CONTROL LOOP.md",
-    "microservices/CHALLENGES/DISTRIBUTED TRACING.md",
+    "microservices/K8S.md",
     "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
     "microservices/CHALLENGES/EDGE SERVER.md",
+    "microservices/CHALLENGES/CONTROL LOOP.md",
+    "microservices/CHALLENGES/CIRCUIT BREAKER.md",
+    "microservices/CHALLENGES/CENTRALIZED MONITORING AND ALARMS.md",
+    "microservices/CHALLENGES/CENTRAL CONFIGURATION.md",
+    "microservices/CHALLENGES/CENTRALIZED LOG ANALYSIS.md",
+    "microservices/CHALLENGES/AUTHORIZATION SERVER.md",
+    "microservices/RESILIENT4J.md",
+    "angular/OVERVIEW.md",
+    "angular/Binding.md",
+    "microservices/CHALLENGES/DISTRIBUTED TRACING.md",
+    "microservices/CHALLENGES/CHALLENGES.md",
+    "microservices/RABBIT MQ.md",
+    "microservices/DOCKER.md",
+    "microservices/FOOLISH BUG.md",
+    "microservices/TESTING.md",
+    "microservices/SPRINGBOOT 3.0.md",
+    "unknown/Things i don't know.md",
+    "microservices/CHƯA ĐƯỢC GIẢI QUYẾT.md",
+    "angular/FRONT_END.md",
+    "angular/FORM.md",
+    "microservices/OAUTH2.md",
+    "java",
     "microservices/CHALLENGES",
     "microservices/pictures/zimage 20230724201934.png",
     "microservices/pictures",

@@ -8,4 +8,7 @@
 Eureka => Kubernetes => 
 
 Why DNS-based is not sufficient?
+	A DNS client typically holds on to a working IP address; it does not apply a
+	round-robin approach per request.
 
+Eureka là client side-service discovery
