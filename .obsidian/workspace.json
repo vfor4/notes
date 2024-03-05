@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec5f2ce91ae4b693",
+        "id": "6be9b3a696905be2",
         "type": "tabs",
         "children": [
           {
-            "id": "54bc7a0dfa1f5a3c",
+            "id": "cac06d1ee0a61d9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/K8S.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dard",
+                "query": "tag:#h/green",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microservices/K8S.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "microservices/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "microservices/K8S.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,13 +134,11 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,16 +150,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54bc7a0dfa1f5a3c",
+  "active": "cac06d1ee0a61d9f",
   "lastOpenFiles": [
+    "microservices/K8S.md",
+    "Pasted image 20240305213653.png",
+    "Pasted image 20240305213101.png",
+    "Pasted image 20240304213158.png",
+    "Pasted image 20240304211730.png",
+    "Pasted image 20240304211718.png",
+    "Pasted image 20240304204813.png",
+    "microservices/FOOLISH BUG.md",
+    "microservices/MUC LUC.md",
+    "microservices/OAUTH2.md",
+    "microservices/RABBIT MQ.md",
+    "microservices/RESILIENT4J.md",
+    "microservices/DOCKER.md",
+    "angular-to-do/tutorial.md",
+    "angular-to-do/cheat code.md",
+    "angular-to-do",
     "Pasted image 20240303110624.png",
     "Pasted image 20240302161901.png",
     "Pasted image 20240123220651.png",
     "Pasted image 20240121214612.png",
-    "Pasted image 20240121175321.png",
-    "Pasted image 20240121175212.png",
     "microservices/CHALLENGES/SERVICE DISCOVERY.md",
-    "microservices/K8S.md",
     "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
     "microservices/CHALLENGES/EDGE SERVER.md",
     "microservices/CHALLENGES/CONTROL LOOP.md",
@@ -177,30 +181,17 @@
     "microservices/CHALLENGES/CENTRAL CONFIGURATION.md",
     "microservices/CHALLENGES/CENTRALIZED LOG ANALYSIS.md",
     "microservices/CHALLENGES/AUTHORIZATION SERVER.md",
-    "microservices/RESILIENT4J.md",
     "angular/OVERVIEW.md",
     "angular/Binding.md",
     "microservices/CHALLENGES/DISTRIBUTED TRACING.md",
     "microservices/CHALLENGES/CHALLENGES.md",
-    "microservices/RABBIT MQ.md",
-    "microservices/DOCKER.md",
-    "microservices/FOOLISH BUG.md",
     "microservices/TESTING.md",
     "microservices/SPRINGBOOT 3.0.md",
     "unknown/Things i don't know.md",
-    "microservices/CHƯA ĐƯỢC GIẢI QUYẾT.md",
-    "angular/FRONT_END.md",
-    "angular/FORM.md",
-    "microservices/OAUTH2.md",
     "java",
     "microservices/CHALLENGES",
-    "microservices/pictures/zimage 20230724201934.png",
     "microservices/pictures",
     "unknown",
-    "Pasted image 20231010223719.png",
-    "Pasted image 20230910231450.png",
-    "Pasted image 20230910231133.png",
-    "Pasted image 20230910231112.png",
     "angular"
   ]
 }
