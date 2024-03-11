@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6be9b3a696905be2",
+        "id": "e74004cc39f18cad",
         "type": "tabs",
         "children": [
           {
-            "id": "cac06d1ee0a61d9f",
+            "id": "39f4c599dff6699b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "angular-to-do/tutorial.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#h/green",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "angular-to-do/tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "angular-to-do/tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "angular-to-do/tutorial.md"
+              }
             }
           },
           {
@@ -150,15 +157,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cac06d1ee0a61d9f",
+  "active": "39f4c599dff6699b",
   "lastOpenFiles": [
+    "angular-to-do/cheat code.md",
+    "Pasted image 20240302161901.png",
+    "Pasted image 20240121175212.png",
+    "Pasted image 20231010223719.png",
+    "Pasted image 20230910231133.png",
+    "Pasted image 20230910231112.png",
     "microservices/K8S.md",
     "Pasted image 20240305213653.png",
     "Pasted image 20240305213101.png",
     "Pasted image 20240304213158.png",
     "Pasted image 20240304211730.png",
     "Pasted image 20240304211718.png",
-    "Pasted image 20240304204813.png",
     "microservices/FOOLISH BUG.md",
     "microservices/MUC LUC.md",
     "microservices/OAUTH2.md",
@@ -166,12 +178,7 @@
     "microservices/RESILIENT4J.md",
     "microservices/DOCKER.md",
     "angular-to-do/tutorial.md",
-    "angular-to-do/cheat code.md",
     "angular-to-do",
-    "Pasted image 20240303110624.png",
-    "Pasted image 20240302161901.png",
-    "Pasted image 20240123220651.png",
-    "Pasted image 20240121214612.png",
     "microservices/CHALLENGES/SERVICE DISCOVERY.md",
     "microservices/CHALLENGES/REACTIVE MICROSERVICES.md",
     "microservices/CHALLENGES/EDGE SERVER.md",

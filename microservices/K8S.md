@@ -96,3 +96,6 @@ Kube-proxy with iptable implement the load-balancing. The endpoint will be rando
 - If container in the Pod is dead (not live anymore), kubelet are gonna restart it
 - Liveness can be set: Command, Http request, Tcp
 ![[Pasted image 20240305213653.png]]
+
+## VOLUMES
+	
