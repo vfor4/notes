@@ -1,12 +1,12 @@
 ![[Pasted image 20240121175321.png]]
 
-#### API OBJECT
+## API OBJECT
 - Node: một server hoặc máy ảo hoặc máy vật lý, bao gồm control plane node và worker node
 - Pod: một container hay nhiều container. Smallest K8s wordload object. It is the unit of deployment
 	- Cùng scheduled
 	- Cùng network
 	- Cùng volumes
-	![[Pasted image 20240302161901.pn
+	![[Pasted image 20240302161901.png]]
 - Deployment: dùng để deploy or upgrade Pods
 	- rolling update, once the rolling update has completed, Deloyment will show both Replicates A and B, where A is scaled to 0, B is scaled to 3
 	- The Deployment keep its prior configuration. If performance of the new B is not satisfactory
@@ -98,4 +98,50 @@ Kube-proxy with iptable implement the load-balancing. The endpoint will be rando
 ![[Pasted image 20240305213653.png]]
 
 ## VOLUMES
-	
+- plenty of volume types
+- to mange well these types, we can use PersistentVolume
+![[Pasted image 20240311212709.png]]
+## CONFIGMAP API
+- create ConfigMap
+```
+kubectl create configmap my-config \
+  --from-literal=key1=value1 \  
+  --from-literal=key2=value2
+``` 
+- display ConfigMap details
+```
+kubectl get configmaps my-config -o yaml
+```
+- we can create ConfigMap from manifest file
+- create from properties
+```
+kubectl create configmap permission-config \ 
+--from-file=<path/to/>permission-reset.properties
+```
+- Use ConfigMaps Inside Pods: As Environment Variables
+- Use ConfigMaps Inside Pods: As Volumes
+## SECRET API
+- create 
+```
+kubectl create secret generic my-password \  
+  --from-literal=password=mysqlpassword
+```
+- create from manifest:
+	- data (need to be encoded by base64)
+	- stringDate: raw string
+- use secret
+	- :))) easy lemon 
+## INGESS
+For the LoadBalancer we may not want to use it for every services. Manage NodePort. 
+Ingress represent another layer of abstraction, deployed in front of the Service Api resources. unified method of managing access to our application
+
+> [!NOTE] k8s.io
+> An Ingress is a collection of rules that allow inbound connections to reach the cluster Services
+
+![[Pasted image 20240312210736.png]]
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![[Pasted image 20240312211211.png]]
+
+## INGRESS CONTROLLER
+An Ingress **defines** what needs to be done, while the Ingress Controller **actively does it**.
+- kubernetes.io/ingress.class: "nginx"** (for an nginx ingress controller).
