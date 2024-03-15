@@ -90,7 +90,6 @@ Kube-proxy with iptable implement the load-balancing. The endpoint will be rando
 	- service which the same namespace find other service just by thier name
 	- this is the most common and recommended solution
 
-## HOW TO DEPLOY APPS ON K8S
 ## LIVENESS AND READINESS PROBES
 - Be careful liveness and readiness overlap
 - If container in the Pod is dead (not live anymore), kubelet are gonna restart it
@@ -145,3 +144,6 @@ Ingress represent another layer of abstraction, deployed in front of the Service
 ## INGRESS CONTROLLER
 An Ingress **defines** what needs to be done, while the Ingress Controller **actively does it**.
 - kubernetes.io/ingress.class: "nginx"** (for an nginx ingress controller).
+## HOW TO DEPLOY APPS ON K8S
+### Helm
+- Built-in objects: Values, Release, Chart, Files, Capabilities. All objects are accessible using the current scope ., also known as #DOT . from 
