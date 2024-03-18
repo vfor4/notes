@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6efa7092ccd44da8",
+        "id": "143df8d352fb1e3c",
         "type": "tabs",
         "children": [
           {
-            "id": "1da21f6623d78eec",
+            "id": "dd05ba74d0102759",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,11 +157,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1da21f6623d78eec",
+  "active": "dd05ba74d0102759",
   "lastOpenFiles": [
+    "golang/>>>GO.md",
     "gophercises_punching.gif",
     "golang-gopher.svg",
-    "golang/>>>GO.md",
     "golang (1).svg",
     "README.md",
     "golang.svg",
