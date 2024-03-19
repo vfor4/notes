@@ -68,8 +68,54 @@ switch i := 5, true { // can remove true, short hand syntax
 		Println
 }
 // deferred
+db, _ := sql.Open("drive", "connect")
+defer db.Close()
 
-// panic and recovery
+rows, _ := db.Query("select ...")
+defer rows.Close()
 
-// goto
+// panic and recovery, panic like exception
+func divide(dividend, divisor int) int {
+	defer func () {
+		if msg := recover(); msg != nil {
+			fmt.Println(msg)
+		}
+	}()
+}
+
+// goto 
+can leave a block
 ```
+
+![[Pasted image 20240319203237.png]]
+### FUNCTION
+```go
+// functions
+return single value
+func greet (name1 string, name2 string) = func greet (name1, name2 string)
+pass by value
+
+return multiple values
+func multi (l int) (int, bool) {
+	return 4,true
+}
+// packages
+lowercase means private, uppercase means public
+// comments
+
+
+```
+
+
+
+![[Pasted image 20240319213259.png]]
+
+
+
+
+
+
+
+
+
+
