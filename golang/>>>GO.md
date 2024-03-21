@@ -107,15 +107,65 @@ lowercase means private, uppercase means public
 ```
 
 
-
 ![[Pasted image 20240319213259.png]]
 
 
+### method
+```go
+type myInt int
+var mi myInt
+func (i myInt) isEven() bool {
+	return int(i)%2
+}
+ans := mi.isEven()
+method indicate the tighter coupling between a func and a type
+```
+
+### interface
+```go
+type Reader interface {
+	Read([] byte)) (int, error)
+}
+
+type struct File {}
+func (f File) Read([] byte) (int, error)
+
+type struct TCPCon {}
+func (f TCPCon) Read([] byte) (int, error)
+
+var f File
+var t TCPCon
+var r Reader
 
 
 
 
+```
 
+### Type assertion
 
+```go
 
+r Reader = f
+var f2 File = r // error
+f2 = r.(File) // panic if it's wrong type 
+f2, ok := r.(File)
+```
 
+### Type switches
+```go
+switch v := r.(type) {
+	case File:
+		call File's api
+	case TCPCon:
+		call TCPCon's file
+	default:
+	//
+}
+```
+
+### Generic
+```go
+func clone [V any] (s []V) {}
+comparable constrain
+```
